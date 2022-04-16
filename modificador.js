@@ -31,14 +31,19 @@ function fnCapitalizar(vetor) {
     return modificado;
 };
 
-function fnOrdenar(vetor) {
-
-    //um funcão que modifica com a odernação é feita 
-    return vetor.sort(function(a, b) {
-        return a.localeCompare(b);
-    });
- 
-};
+function fnOrdenar(colecao, attr){    
+    return attr ?
+        colecao.sort(function(a,b){
+            return typeof a[attr] == 'number' ?
+                a[attr] - b[attr] :
+                a[attr].localeCompare(b[attr])
+        }):
+        colecao.sort(function(a,b){
+            return typeof a == 'number' ?
+                a - b :
+                a.localeCompare(b)
+        });
+}
 
 // Exportando as funções
 export default {

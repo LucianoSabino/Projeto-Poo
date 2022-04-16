@@ -3,11 +3,16 @@ import modificador from './modificador.js';
 import ingredientes from './ingredientes.js';
 
 modificador.capitalizarNovo(ingredientes, 'nome')
+let ingredientesOrdenados = modificador.ordenar(ingredientes, 'nome');
+let cotainerIngredientes = document.querySelector('#container-ingredientes');
 
-//console.log(ingredientes)
-//console.log(Array.isArray(ingredientes))//sabendo se o elemento e um vetor
-//console.log(typeof ingredientes)
-//var ingredientes = ['sal', 'mel', 'água', 'mostarda'];
-//var resutadoCapitalizacao = modificador.capitalizar(ingredientes)
-//var resultadoOdenacao = modificador.ordenar(resutadoCapitalizacao)
-//console.log(resultadoOdenacao)
+for (let ingrediente of ingredientesOrdenados) {
+    let tetoHTML = `
+    <div class="ingrediente">
+        <img src="img/${ingrediente.img}" alt="">
+        <p class="nome-ingrediente">${ingrediente.nome}</p>
+    </div>
+    `;
+
+    cotainerIngredientes.innerHTML += tetoHTML;
+};
