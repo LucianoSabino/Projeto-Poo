@@ -1,10 +1,12 @@
 # Projeto-Poo
-<<<<<<< Updated upstream
  Criação de um projeto oriientado a objeto.
 =======
 Criação de um projeto oriientado a objeto.
 
 [Veja o projeto o vivo](https://projeto-poo.netlify.app/)
+
+[Arquivo projeto final](https://github.com/LucianoSabino/Projeto-Poo/tree/Cole%C3%A7%C3%B5es-e-Interfaces-Gr%C3%A1ficas-Estilos-CSS)
+
 ![Landing-page-burguer](https://github.com/LucianoSabino/Projeto-Poo/blob/Cole%C3%A7%C3%B5es-e-Interfaces-Gr%C3%A1ficas-Estilos-CSS/img/projeto-poo.gif?raw=true)
 
 ## main
@@ -44,5 +46,3 @@ Criação de um projeto oriientado a objeto.
 [Veja o projeto o vivo](https://projeto-poo.netlify.app/)
 ![Landing-page-burguer](https://github.com/LucianoSabino/Projeto-Poo/blob/Cole%C3%A7%C3%B5es-e-Interfaces-Gr%C3%A1ficas-Estilos-CSS/img/projeto-poo.gif?raw=true)  
 ### Projeto finalizado. :)
-
->>>>>>> Stashed changes
