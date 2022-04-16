@@ -1,9 +1,13 @@
 // Importando o aquivo modificador.js para pega as funções exsportada
 import modificador from './modificador.js';
+import ingredientes from './ingredientes.js';
 
-var ingredientes = ['sal', 'mel', 'água', 'mostarda'];
+console.log(ingredientes)
 
-var resutadoCapitalizacao = modificador.capitalizar(ingredientes)
-var resultadoOdenacao = modificador.ordenar(resutadoCapitalizacao)
+//sabendo se o elemento e um vetor
+console.log(Array.isArray(ingredientes))
 
-console.log(resultadoOdenacao)
+//var ingredientes = ['sal', 'mel', 'água', 'mostarda'];
+//var resutadoCapitalizacao = modificador.capitalizar(ingredientes)
+//var resultadoOdenacao = modificador.ordenar(resutadoCapitalizacao)
+//console.log(resultadoOdenacao)
