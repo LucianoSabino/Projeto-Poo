@@ -2,11 +2,11 @@
 import modificador from './modificador.js';
 import ingredientes from './ingredientes.js';
 
-console.log(ingredientes)
+modificador.capitalizarNovo(ingredientes, 'nome')
 
-//sabendo se o elemento e um vetor
-console.log(Array.isArray(ingredientes))
-
+//console.log(ingredientes)
+//console.log(Array.isArray(ingredientes))//sabendo se o elemento e um vetor
+//console.log(typeof ingredientes)
 //var ingredientes = ['sal', 'mel', 'água', 'mostarda'];
 //var resutadoCapitalizacao = modificador.capitalizar(ingredientes)
 //var resultadoOdenacao = modificador.ordenar(resutadoCapitalizacao)

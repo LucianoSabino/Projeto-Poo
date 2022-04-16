@@ -1,8 +1,6 @@
 # Projeto-Poo
  Criação de um projeto oriientado a objeto.
 - Criação de um novo documento: ingredientes.js.
-- Exportação e Importação.
-    - Modularizando a var ingrediente, transformando em um array de objetos (onde acrescentamos mais informação como o valor)
+- Refatoração de Código.
+    - Estou testando se o que eu to recebendo do arquivo ingredientes.js é um objeto ou uma string 
 
-//sabendo se o elemento e um vetor
-console.log(Array.isArray(ingredientes))

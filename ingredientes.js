@@ -1,6 +1,6 @@
 var ingredientes = [
     {
-        nome: 'Alface',
+        nome: 'alface',
         valor: 2.5
     },
     {

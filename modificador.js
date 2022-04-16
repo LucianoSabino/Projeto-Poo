@@ -1,3 +1,18 @@
+function fnCapitalizarNovo(colecao, atributo) {
+
+    if (typeof colecao[0] == 'object') {
+        var resltado = colecao.map(function (obj) {
+            var letraInicial = obj[atributo].charAt(0).toUpperCase();
+            var restoTexto = obj[atributo].slice(1);
+    
+            obj[atributo] = letraInicial + restoTexto
+            return obj
+        });
+
+        console.log(resltado)
+    }
+};
+
 
 function fnCapitalizar(vetor) {
     var modificado = [];
@@ -28,5 +43,6 @@ function fnOrdenar(vetor) {
 // Exportando as funções
 export default {
     capitalizar: fnCapitalizar,
-    ordenar: fnOrdenar
+    ordenar: fnOrdenar,
+    capitalizarNovo: fnCapitalizarNovo
 };
